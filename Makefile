@@ -31,6 +31,8 @@ LUA_BIN_DIR ?=       $(PREFIX)/bin
 ## specific details.
 
 ## Linux
+PREFIX =            /usr
+LUA_INCLUDE_DIR =   $(PREFIX)/include/lua51
 
 ## FreeBSD
 #LUA_INCLUDE_DIR =   $(PREFIX)/include/lua51
